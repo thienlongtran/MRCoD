@@ -6,8 +6,6 @@ using UnityEngine.UI;
 public class clickButtonMR : MonoBehaviour
 {
 
-    public Button button;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +18,7 @@ public class clickButtonMR : MonoBehaviour
         //Click button when user "clicks" using the side lever
         if (Input.GetButtonUp("Fire1"))
         {
-            button.onClick.Invoke();
+            GetComponent<Button>().onClick.Invoke();
             Debug.Log("Fire 1 Pressed");
         }
     }

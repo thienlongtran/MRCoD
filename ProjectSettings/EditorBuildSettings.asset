@@ -41,16 +41,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Mode 1/Shelter/ShelterResult.unity
     guid: a857c743bedc0413baafe722f073c56f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Item/ItemInit.unity
     guid: a12c4a6fb7afe4129bcd1cfddbe4f7e2
   - enabled: 1
     path: Assets/Scenes/Mode 1/Item/ItemCollectScene.unity
     guid: 39b5d98ecdffe43d8a33e609a3e3c582
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Item/MatchItem.unity
     guid: f487cbf7e75d94df38560570511dfa57
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Item/ItemResult.unity
     guid: 01ce502b40ccf4a4e89ffdba20eeafe0
   - enabled: 0

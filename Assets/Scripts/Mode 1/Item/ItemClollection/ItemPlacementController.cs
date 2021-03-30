@@ -99,10 +99,10 @@ public class ItemPlacementController : MonoBehaviour
         {
             if (CameraPosition.distance > 1)
             {
-                if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
+                if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinBounds))
                 {
                     var hitPose = hits[0].pose;
-                    placedWool = Instantiate(wool, hitPose.position, Quaternion.Euler(hitPose.rotation.x, hitPose.rotation.y, hitPose.rotation.z));
+                    placedWool = Instantiate(wool, hitPose.position, hitPose.rotation);
                     DistanceText.t = "wool";
                     woolIsPlaced = true;
                     woolButton.gameObject.SetActive(true);
@@ -114,10 +114,10 @@ public class ItemPlacementController : MonoBehaviour
         {
             if (CameraPosition.distance > 1)
             {
-                if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
+                if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinBounds))
                 {
                     var hitPose = hits[0].pose;
-                    placedKnife = Instantiate(knife, hitPose.position, Quaternion.Euler(hitPose.rotation.x, hitPose.rotation.y, hitPose.rotation.z));
+                    placedKnife = Instantiate(knife, hitPose.position, hitPose.rotation);
                     DistanceText.t = "knife";
                     knifeIsPlaced = true;
                     knifeButton.gameObject.SetActive(true);
@@ -129,10 +129,10 @@ public class ItemPlacementController : MonoBehaviour
         {
             if (CameraPosition.distance > 1)
             {
-                if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
+                if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinBounds))
                 {
                     var hitPose = hits[0].pose;
-                    placedEgg = Instantiate(egg, hitPose.position, Quaternion.Euler(hitPose.rotation.x, hitPose.rotation.x, hitPose.rotation.z));
+                    placedEgg = Instantiate(egg, hitPose.position, hitPose.rotation);
                     DistanceText.t = "egg";
                     eggIsPlaced = true;
                     eggButton.gameObject.SetActive(true);
@@ -144,10 +144,10 @@ public class ItemPlacementController : MonoBehaviour
         {
             if (CameraPosition.distance > 1)
             {
-                if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
+                if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinBounds))
                 {
                     var hitPose = hits[0].pose;
-                    placedLeg = Instantiate(leg, hitPose.position, Quaternion.Euler(hitPose.rotation.x, hitPose.rotation.y, hitPose.rotation.z));
+                    placedLeg = Instantiate(leg, hitPose.position, hitPose.rotation);
                     DistanceText.t = "leg";
                     legIsPlaced = true;
                     legButton.gameObject.SetActive(true);
@@ -162,7 +162,7 @@ public class ItemPlacementController : MonoBehaviour
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
                     var hitPose = hits[0].pose;
-                    placedToy = Instantiate(toy, hitPose.position, Quaternion.Euler(hitPose.rotation.x, hitPose.rotation.y, hitPose.rotation.z));
+                    placedToy = Instantiate(toy, hitPose.position, hitPose.rotation);
                     DistanceText.t = "toy";
                     toyIsPlaced = true;
                     toyButton.gameObject.SetActive(true);

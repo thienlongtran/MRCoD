@@ -42,6 +42,10 @@ public class ItemPlacementController : MonoBehaviour
     Button toyButton;
 
 
+    [SerializeField]
+    Camera arCamera;
+    Vector3 screenCenter;
+
     private ARPlaneManager aRPlaneManager;
     private ARRaycastManager aRRaycastManager;
 
@@ -63,6 +67,7 @@ public class ItemPlacementController : MonoBehaviour
     public static bool legIsCollected;
     public static bool toyIsCollected;
 
+    static List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
     void Awake()
     {
@@ -73,6 +78,7 @@ public class ItemPlacementController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        screenCenter = new Vector3(arCamera.pixelWidth / 2, arCamera.pixelHeight / 2, 0f);
 
         woolIsPlaced = false;
         knifeIsPlaced = false;
@@ -99,7 +105,8 @@ public class ItemPlacementController : MonoBehaviour
         {
             if (CameraPosition.distance > 1)
             {
-                if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinBounds))
+                var ray = arCamera.ScreenPointToRay(screenCenter);
+                if (aRRaycastManager.Raycast(ray, hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinBounds))
                 {
                     var hitPose = hits[0].pose;
                     placedWool = Instantiate(wool, hitPose.position, hitPose.rotation);
@@ -114,7 +121,8 @@ public class ItemPlacementController : MonoBehaviour
         {
             if (CameraPosition.distance > 1)
             {
-                if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinBounds))
+                var ray = arCamera.ScreenPointToRay(screenCenter);
+                if (aRRaycastManager.Raycast(ray, hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinBounds))
                 {
                     var hitPose = hits[0].pose;
                     placedKnife = Instantiate(knife, hitPose.position, hitPose.rotation);
@@ -129,7 +137,8 @@ public class ItemPlacementController : MonoBehaviour
         {
             if (CameraPosition.distance > 1)
             {
-                if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinBounds))
+                var ray = arCamera.ScreenPointToRay(screenCenter);
+                if (aRRaycastManager.Raycast(ray, hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinBounds))
                 {
                     var hitPose = hits[0].pose;
                     placedEgg = Instantiate(egg, hitPose.position, hitPose.rotation);
@@ -144,7 +153,8 @@ public class ItemPlacementController : MonoBehaviour
         {
             if (CameraPosition.distance > 1)
             {
-                if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinBounds))
+                var ray = arCamera.ScreenPointToRay(screenCenter);
+                if (aRRaycastManager.Raycast(ray, hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinBounds))
                 {
                     var hitPose = hits[0].pose;
                     placedLeg = Instantiate(leg, hitPose.position, hitPose.rotation);
@@ -159,7 +169,8 @@ public class ItemPlacementController : MonoBehaviour
         {
             if (CameraPosition.distance > 1)
             {
-                if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
+                var ray = arCamera.ScreenPointToRay(screenCenter);
+                if (aRRaycastManager.Raycast(ray, hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
                     var hitPose = hits[0].pose;
                     placedToy = Instantiate(toy, hitPose.position, hitPose.rotation);
@@ -211,9 +222,5 @@ public class ItemPlacementController : MonoBehaviour
         CameraPosition.distance = 0;
         SceneManager.LoadScene("MatchItem");
     }
-
-
-
-
-    static List<ARRaycastHit> hits = new List<ARRaycastHit>();
+    
 }

@@ -3,22 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ItemStartButton : MonoBehaviour
+public class SwitchSceneImmediate : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        
+        SceneManager.LoadScene("ItemCollectScene");
     }
 
     // Update is called once per frame
     void Update()
     {
         
-    }
-
-    public void startItem()
-    {
-        SceneManager.LoadScene("MiddleManScene");
     }
 }

@@ -1,27 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.XR;
 
-public class ItemStartButton : MonoBehaviour
+public class disableVR : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        
+        StartCoroutine(SwitchTo2D());
     }
 
     // Update is called once per frame
     void Update()
     {
         
-    }
-
-    public void startItem()
-    {
-        StartCoroutine(SwitchTo2D());
-        SceneManager.LoadScene("MiddleManScene");
     }
 
     // Call via `StartCoroutine(SwitchTo2D())` from your code. Or, use
@@ -67,4 +60,3 @@ public class ItemStartButton : MonoBehaviour
         }
     }
 }
-

@@ -4,24 +4,15 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.XR;
 
-public class ShelterStartButton : MonoBehaviour
+public class SwitchSceneImmediate : MonoBehaviour
 {
+    public string sceneName = "";
+
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void startShelter()
-    {
         StartCoroutine(SwitchTo2D());
-        SceneManager.LoadScene("ShelterMiddleManScene");
+        SceneManager.LoadScene(sceneName);
     }
 
     // Call via `StartCoroutine(SwitchTo2D())` from your code. Or, use
@@ -65,5 +56,11 @@ public class ShelterStartButton : MonoBehaviour
                 // No need to reset `fieldOfView`, since it's reset automatically.
             }
         }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 }

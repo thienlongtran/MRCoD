@@ -11,34 +11,34 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Animal/AnimalCollect.unity
     guid: 0bf9589b598894d2c8fcd97293a83bb0
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/OrderOfplay.unity
     guid: 0666a4097669144cbbcd471ec0fdaef9
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/OrderOfPlay2.unity
     guid: c0ddb2363decd492382cbb628e3f0aab
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Food/FoodInit.unity
     guid: fbce90f050781442092506507592e791
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Food/FoodCollectScene.unity
     guid: 9412f5a9e8b074a9c8777f7a8052701a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Food/MatchFoodScene.unity
     guid: 5e855410c33bd444a9f37c4eb7561ffd
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Food/FoodResult.unity
     guid: 8dcfa625332494a2aa2a3289dbdedc3d
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Shelter/ShelterInit.unity
     guid: 1602e9fa4264249359182668381169bf
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Shelter/ShelterCollectScene.unity
     guid: 81d4c3797c53f4a3e8cdd91f01ab487c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Shelter/MatchShelterScene.unity
     guid: e800164bf7a614864965f5cf5d61d4e3
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Shelter/ShelterResult.unity
     guid: a857c743bedc0413baafe722f073c56f
   - enabled: 1
@@ -119,15 +119,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Health Active Bars/Progress.unity
     guid: f882d99b585e04afca1bcce5b5d43e78
-  - enabled: 0
-    path: Assets/GoogleVR/Demos/Scenes/HelloVR.unity
-    guid: bb36d2905dc634f1c9eecb35beecaca8
-  - enabled: 0
-    path: Assets/GoogleVR/Demos/Scenes/VideoDemo.unity
-    guid: c79d901ffb34f428eadaa3a7269a6c7c
   - enabled: 1
     path: Assets/Scenes/Mode 1/Item/MiddleManScene.unity
     guid: b638964b012378546a15c014f0c1f8dd
+  - enabled: 1
+    path: Assets/Scenes/Mode 1/Food/FoodMiddleManScene.unity
+    guid: c3a70b7283df985449b180f90c56e2e3
+  - enabled: 1
+    path: Assets/Scenes/Mode 1/Shelter/ShelterMiddleManScene.unity
+    guid: a3648f72d4e4c764e89374236e1dce82
   m_configObjects:
     com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: 6a1e80bbd1d5b48798d23581b4f76860,
       type: 2}

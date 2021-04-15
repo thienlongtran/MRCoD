@@ -5,109 +5,118 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/ID/ID.unity
     guid: fcf57899783374567940c0efadbe933b
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/ID/TutorialMiddlemanScene.unity
+    guid: 9c6da7b4fbe94d548b41a7baf43430e3
+  - enabled: 1
+    path: Assets/Scenes/Animal/Tutorial.unity
+    guid: 8602ca988b8c7494ab7f2cc6ec2ee1ff
+  - enabled: 1
+    path: Assets/Scenes/Animal/AnimalMiddlemanScene.unity
+    guid: 5359205ed488b6e4bb92147add5dc221
+  - enabled: 1
     path: Assets/Scenes/Animal/AnimalCollect.unity
     guid: 0bf9589b598894d2c8fcd97293a83bb0
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/OrderOfplay.unity
     guid: 0666a4097669144cbbcd471ec0fdaef9
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/OrderOfPlay2.unity
     guid: c0ddb2363decd492382cbb628e3f0aab
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Food/FoodInit.unity
     guid: fbce90f050781442092506507592e791
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Food/FoodCollectScene.unity
     guid: 9412f5a9e8b074a9c8777f7a8052701a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Food/MatchFoodScene.unity
     guid: 5e855410c33bd444a9f37c4eb7561ffd
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Food/FoodResult.unity
     guid: 8dcfa625332494a2aa2a3289dbdedc3d
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Shelter/ShelterInit.unity
     guid: 1602e9fa4264249359182668381169bf
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Shelter/ShelterCollectScene.unity
     guid: 81d4c3797c53f4a3e8cdd91f01ab487c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Shelter/MatchShelterScene.unity
     guid: e800164bf7a614864965f5cf5d61d4e3
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Shelter/ShelterResult.unity
     guid: a857c743bedc0413baafe722f073c56f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Item/ItemInit.unity
     guid: a12c4a6fb7afe4129bcd1cfddbe4f7e2
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Item/ItemCollectScene.unity
     guid: 39b5d98ecdffe43d8a33e609a3e3c582
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Item/MatchItem.unity
     guid: f487cbf7e75d94df38560570511dfa57
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 1/Item/ItemResult.unity
     guid: 01ce502b40ccf4a4e89ffdba20eeafe0
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Health Active Bars/Progress.unity
     guid: f882d99b585e04afca1bcce5b5d43e78
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 2/Letter/LetterInitScene.unity
     guid: b651e7779422c427396f0501d3ad622b
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 2/Letter/LetterCollectScene.unity
     guid: 32bb0de25703244e99df6cd933e0a180
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 2/Word/CreateWord.unity
     guid: a7cc034de6ee0416a82bed4d59ef4a03
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 2/Question1.unity
     guid: 56e4e6e2df8354c8bbfad94ad30b0219
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 2/Preference1.unity
     guid: c0a55ba35b1a44a76a95e5db29b203e5
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 2/Decision1.unity
     guid: ed7ec4245bea440c6b81003e1e049cb4
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 2/Question2.unity
     guid: f44751ce7e51a45aa8f6a8c09d6d24b9
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 2/Preference2.unity
     guid: 2da40d32531de430c9c2f1b17f485cbe
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 2/Word/MatchWord.unity
     guid: 46cba1288ca2f4bdcba25753e6dbcae4
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 2/Food2/Foo2Init.unity
     guid: 1c7150f2407554505a068ae27776d9cc
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 2/Food2/Food2CollectScene.unity
     guid: 0af8b3181ed63404d8b8dce22d166e76
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 2/Food2/MatchFood2.unity
     guid: 128cfccff374446f28ce448069c0c029
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mode 2/Food2/Food2Result.unity
     guid: e268280430e3343d89ca91a04f953008
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/2D Active/ActiveInit/ActiveInit.unity
     guid: 98b413767e3794366a723ae400b83bdb
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/2D Active/Cat/CatActiveInit.unity
     guid: 50dfc9542a64146f5a7c5f346ced40c3
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/2D Active/Cat/CatWalk.unity
     guid: c3d41636025ac44018a9457c63c2664d
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/2D Active/Cat/CatItem.unity
     guid: 180b021f01a194268b7b767950ee37cd
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/2D Active/Cat/CatResult.unity
     guid: 359156678068242f1b96791b00237d98
   - enabled: 1

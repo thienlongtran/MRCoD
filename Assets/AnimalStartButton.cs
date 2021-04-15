@@ -4,27 +4,24 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.XR;
 
-public class GetIDButton : MonoBehaviour
+public class AnimalStartButton : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public void getID()
+    public void startAnimal()
     {
-        // PlayerDatabase playerDatabase = new PlayerDatabase(GetID.id);
-        //SceneManager.LoadScene("StartScene");
-        //StartCoroutine(SwitchTo2D());
-        Screen.orientation = ScreenOrientation.Landscape;
-        SceneManager.LoadScene("TutorialMiddlemanScene");
+        StartCoroutine(SwitchTo2D());
+        SceneManager.LoadScene("AnimalMiddlemanScene");
     }
 
     // Call via `StartCoroutine(SwitchTo2D())` from your code. Or, use

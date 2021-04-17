@@ -62,7 +62,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Mode 1/Item/ItemResult.unity
     guid: 01ce502b40ccf4a4e89ffdba20eeafe0
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Health Active Bars/Progress.unity
     guid: f882d99b585e04afca1bcce5b5d43e78
   - enabled: 1

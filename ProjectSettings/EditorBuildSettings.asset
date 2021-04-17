@@ -5,64 +5,64 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ID/ID.unity
     guid: fcf57899783374567940c0efadbe933b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ID/TutorialMiddlemanScene.unity
     guid: 9c6da7b4fbe94d548b41a7baf43430e3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Animal/Tutorial.unity
     guid: 8602ca988b8c7494ab7f2cc6ec2ee1ff
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Animal/AnimalMiddlemanScene.unity
     guid: 5359205ed488b6e4bb92147add5dc221
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Animal/AnimalCollect.unity
     guid: 0bf9589b598894d2c8fcd97293a83bb0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Mode 1/OrderOfplay.unity
     guid: 0666a4097669144cbbcd471ec0fdaef9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Mode 1/OrderOfPlay2.unity
     guid: c0ddb2363decd492382cbb628e3f0aab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Mode 1/Food/FoodInit.unity
     guid: fbce90f050781442092506507592e791
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Mode 1/Food/FoodCollectScene.unity
     guid: 9412f5a9e8b074a9c8777f7a8052701a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Mode 1/Food/MatchFoodScene.unity
     guid: 5e855410c33bd444a9f37c4eb7561ffd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Mode 1/Food/FoodResult.unity
     guid: 8dcfa625332494a2aa2a3289dbdedc3d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Mode 1/Shelter/ShelterInit.unity
     guid: 1602e9fa4264249359182668381169bf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Mode 1/Shelter/ShelterCollectScene.unity
     guid: 81d4c3797c53f4a3e8cdd91f01ab487c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Mode 1/Shelter/MatchShelterScene.unity
     guid: e800164bf7a614864965f5cf5d61d4e3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Mode 1/Shelter/ShelterResult.unity
     guid: a857c743bedc0413baafe722f073c56f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Mode 1/Item/ItemInit.unity
     guid: a12c4a6fb7afe4129bcd1cfddbe4f7e2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Mode 1/Item/ItemCollectScene.unity
     guid: 39b5d98ecdffe43d8a33e609a3e3c582
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Mode 1/Item/MatchItem.unity
     guid: f487cbf7e75d94df38560570511dfa57
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Mode 1/Item/ItemResult.unity
     guid: 01ce502b40ccf4a4e89ffdba20eeafe0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Health Active Bars/Progress.unity
     guid: f882d99b585e04afca1bcce5b5d43e78
   - enabled: 1

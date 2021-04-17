@@ -1,55 +1,37 @@
 {
-  "project_info": {
-    "project_number": "134829608643",
-    "firebase_url": "https://arcod3-f92af-default-rtdb.firebaseio.com",
-    "project_id": "arcod3-f92af",
-    "storage_bucket": "arcod3-f92af.appspot.com"
-  },
   "client": [
     {
+      "services": {
+        "appinvite_service": {
+          "status": 1
+        }, 
+        "analytics_service": {
+          "status": 0
+        }
+      }, 
+      "oauth_client": [
+        {
+          "client_id": "134829608643-11vfoldmo58rd69drpk043kb95opa5dc.apps.googleusercontent.com"
+        }
+      ], 
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNp5JSksOHPC2yrGRdyr0F6mhbn6APPEM"
+        }
+      ], 
       "client_info": {
-        "mobilesdk_app_id": "1:134829608643:android:081154de44a4796e8f9c76",
+        "mobilesdk_app_id": "1:134829608643:ios:7c9d20fda90da1e28f9c76", 
         "android_client_info": {
           "package_name": "com.uno.ARCoD3"
         }
-      },
-      "oauth_client": [
-        {
-          "client_id": "134829608643-o9lqaccf3ql2fikqkoma43i2nkrmg3ej.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.uno.ARCoD3",
-            "certificate_hash": "9cdefb7db06d21e0b19c27718abfc4acd3a4eff3"
-          }
-        },
-        {
-          "client_id": "134829608643-nnf0cs8rl7tlm2r7hdr5v6ccp329f1ps.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBqFBFSielVXHnWxPQcUwfd_03HvhcQz50"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "134829608643-nnf0cs8rl7tlm2r7hdr5v6ccp329f1ps.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "134829608643-11vfoldmo58rd69drpk043kb95opa5dc.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.uno.ARCoD3"
-              }
-            }
-          ]
-        }
       }
     }
-  ],
-  "configuration_version": "1"
+  ], 
+  "configuration_version": "1", 
+  "project_info": {
+    "storage_bucket": "arcod3-f92af.appspot.com", 
+    "project_id": "arcod3-f92af", 
+    "firebase_url": "https://arcod3-f92af-default-rtdb.firebaseio.com", 
+    "project_number": "134829608643"
+  }
 }

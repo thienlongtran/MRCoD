@@ -24,8 +24,8 @@ public class YesNoButton : MonoBehaviour
         // PlayerDatabase playerDatabase = new PlayerDatabase(yesNo);
         //string json = JsonUtility.ToJson(playerDatabase);
 
-        //COMMENT OUT: THIEN WAS HERE
-        //FirebaseInit.reference.Child("Players").Child(GetID.id).Child("LetterInitPlayIn60").SetValueAsync(yesNo);
+        
+        FirebaseInit.reference.Child("Players").Child(GetID.id).Child("LetterInitPlayIn60").SetValueAsync(yesNo);
         LetterTimer.letterTime = 60;
 
         //SceneManager.LoadScene("LetterCollectScene");
@@ -38,8 +38,8 @@ public class YesNoButton : MonoBehaviour
         //PlayerDatabase playerDatabase = new PlayerDatabase(yesNo);
        // string json = JsonUtility.ToJson(playerDatabase);
 
-        //COMMENT OUT: THIEN WAS HERE
-        //FirebaseInit.reference.Child("Players").Child(GetID.id).Child("LetterInitPlayIn60").SetValueAsync(yesNo);
+  
+        FirebaseInit.reference.Child("Players").Child(GetID.id).Child("LetterInitPlayIn60").SetValueAsync(yesNo);
 
         SceneManager.LoadScene("Question1");
     }

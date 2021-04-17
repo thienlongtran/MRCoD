@@ -5,19 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ID/ID.unity
     guid: fcf57899783374567940c0efadbe933b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ID/TutorialMiddlemanScene.unity
     guid: 9c6da7b4fbe94d548b41a7baf43430e3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Animal/Tutorial.unity
     guid: 8602ca988b8c7494ab7f2cc6ec2ee1ff
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Animal/AnimalMiddlemanScene.unity
     guid: 5359205ed488b6e4bb92147add5dc221
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Animal/AnimalCollect.unity
     guid: 0bf9589b598894d2c8fcd97293a83bb0
   - enabled: 1

@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Food2Timer : MonoBehaviour
 {
-    float time = 300;
+    float time = 120;
     public Text timerText;
     // Start is called before the first frame update
     void Start()

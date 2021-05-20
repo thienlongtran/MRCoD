@@ -96,7 +96,7 @@ public class Food2PlacementController : MonoBehaviour
 
         if (waterMelonIsPlaced == false)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 5)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
@@ -111,7 +111,7 @@ public class Food2PlacementController : MonoBehaviour
 
         if (tomatoIsPlaced == false && waterMelonIsCollected == true)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 5)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
@@ -126,7 +126,7 @@ public class Food2PlacementController : MonoBehaviour
 
         if (chickenLegIsPlaced == false && tomatoIsCollected == true)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 7)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
@@ -141,7 +141,7 @@ public class Food2PlacementController : MonoBehaviour
 
         if (cokeIsPlaced == false && chickenLegIsCollected == true)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 9)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
@@ -156,7 +156,7 @@ public class Food2PlacementController : MonoBehaviour
 
         if (cornIsPlaced == false && cokeIsCollected == true)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 4)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {

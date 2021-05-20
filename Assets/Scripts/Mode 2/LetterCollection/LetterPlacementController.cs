@@ -140,7 +140,7 @@ public class LetterPlacementController : MonoBehaviour
 
         if (aIsPlaced == false)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 5)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
@@ -170,7 +170,7 @@ public class LetterPlacementController : MonoBehaviour
 
         if (dIsPlaced == false && cIsCollected == true)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 5)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
@@ -185,7 +185,7 @@ public class LetterPlacementController : MonoBehaviour
 
         if (eIsPlaced == false && dIsCollected == true)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 4)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
@@ -200,7 +200,7 @@ public class LetterPlacementController : MonoBehaviour
 
         if (fIsPlaced == false && eIsCollected == true)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 7)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
@@ -215,7 +215,7 @@ public class LetterPlacementController : MonoBehaviour
 
         if (lIsPlaced == false && fIsCollected == true)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 3)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
@@ -230,7 +230,7 @@ public class LetterPlacementController : MonoBehaviour
 
         if (oIsPlaced == false && lIsCollected == true)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 4)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
@@ -245,7 +245,7 @@ public class LetterPlacementController : MonoBehaviour
 
         if (rIsPlaced == false && oIsCollected == true)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 6)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
@@ -260,7 +260,7 @@ public class LetterPlacementController : MonoBehaviour
 
         if (tIsPlaced == false && rIsCollected == true)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 7)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
@@ -275,7 +275,7 @@ public class LetterPlacementController : MonoBehaviour
 
         if (vIsPlaced == false && tIsCollected == true)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 2)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {

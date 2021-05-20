@@ -97,7 +97,7 @@ public class ItemPlacementController : MonoBehaviour
 
         if (woolIsPlaced == false)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 5)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
@@ -112,7 +112,7 @@ public class ItemPlacementController : MonoBehaviour
 
         if (knifeIsPlaced == false && woolIsCollected == true)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 6)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
@@ -127,7 +127,7 @@ public class ItemPlacementController : MonoBehaviour
 
         if (eggIsPlaced == false && knifeIsCollected == true)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 4)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
@@ -142,7 +142,7 @@ public class ItemPlacementController : MonoBehaviour
 
         if (legIsPlaced == false && eggIsCollected == true)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 9)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
@@ -157,7 +157,7 @@ public class ItemPlacementController : MonoBehaviour
 
         if (toyIsPlaced == false && legIsCollected == true)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 2)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {

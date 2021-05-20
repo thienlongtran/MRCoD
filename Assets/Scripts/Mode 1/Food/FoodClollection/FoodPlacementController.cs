@@ -117,7 +117,7 @@ public class FoodPlacementController : MonoBehaviour
 
         if (antIsPlaced == false && milkIsCollected == true)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 5)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
@@ -132,7 +132,7 @@ public class FoodPlacementController : MonoBehaviour
 
         if (grassIsPlaced == false && antIsCollected == true)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 2)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
@@ -147,7 +147,7 @@ public class FoodPlacementController : MonoBehaviour
 
         if (orangeIsPlaced == false && grassIsCollected == true)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 4)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
@@ -162,7 +162,7 @@ public class FoodPlacementController : MonoBehaviour
 
         if (fishIsPlaced == false && orangeIsCollected == true)
         {
-            if (CameraPosition.distance > 1)
+            if (CameraPosition.distance > 9)
             {
                 if (aRRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {

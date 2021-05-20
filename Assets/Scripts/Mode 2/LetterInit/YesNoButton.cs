@@ -26,7 +26,7 @@ public class YesNoButton : MonoBehaviour
 
         
         FirebaseInit.reference.Child("Players").Child(GetID.id).Child("LetterInitPlayIn60").SetValueAsync(yesNo);
-        LetterTimer.letterTime = 60;
+        LetterTimer.letterTime = 30;
 
         //SceneManager.LoadScene("LetterCollectScene");
         SceneManager.LoadScene("ActiveInit");
